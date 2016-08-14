@@ -1,0 +1,9 @@
+IceBox.Service.LoginWorker=LoginWorker --Ice.Trace.Network=1 hello there
+IceBox.Service.LoginWorker2=LoginWorker --Ice.Trace.Network=1 hello there
+IceBox.LoadOrder=LoginWorker,LoginWorker2
+
+
+LoginWorker.Endpoints=tcp -p 10001
+LoginWorker2.Endpoints=tcp -p 10002
+
+
